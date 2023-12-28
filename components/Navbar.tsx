@@ -4,15 +4,17 @@ import Image from 'next/image'
 import ActionButton from './ui/ActionButton'
 import { Button } from './ui/button'
 import {NavBtn} from './ui/NavBtn'
+import Link  from 'next/link'
 
 const Navbar = () => {
   return (
     <>
         <div className='flex justify-between items-center px-10 border-b'>
+        <Link href="/">
+
             <div className="flex relative left-2 bottom-1 sm:left-0">       
-            <a href="/">
                  <Image src="/src/thexitingway.png" width={170} height={170} className='relative bottom-4 right-10' alt='The Xiting Way logo' /> 
-            <div className="relative top-12 font-bold right-20 text-mdsm:text-lg">The Xiting Way</div></a></div>
+            <div className="relative top-12 font-bold right-20 text-mdsm:text-lg">The Xiting Way</div></div></Link>
             <div className='visible sm:hidden'>
             <ActionButton />
             </div>
