@@ -6,7 +6,7 @@ const font = Outfit({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'The Xiting Way',
-  description: 'A technology-first approach for the exciting evolution. Our exciting team continously explore to bring out the most exciting and unique softwares for the world.',
+  description: 'The Xiting Way, a technology-driven approach for the success of your buisness. Explore elite software and web services that will stand apart your business from the crowd.',
 }
 
 export default function RootLayout({
