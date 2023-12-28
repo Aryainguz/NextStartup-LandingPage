@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/ui/button.jsx", "components/ActionButton.jsx", "app/not-found.jsx", "app/api/quote/route.js"],
   "exclude": ["node_modules"]
 }
