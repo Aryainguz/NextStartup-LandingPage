@@ -56,7 +56,7 @@ export function NavBtn() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Our Products</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Our Softwares</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
@@ -64,28 +64,25 @@ export function NavBtn() {
                   <a
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href="#campuslink"
-                    style={{backgroundImage: 'url(/src/campuslink.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}
+                    style={{backgroundImage: 'url(/src/Web.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}
                   >
-                    <div className="mb-2 mt-4 text-lg font-medium">
-                      CampusLink
-                    </div>
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="" title="DevXClub">
-               A Developers community to promote passion for development and technology.
+              <ListItem href="" title="E-Commerce">
+                A full stack E-Commerce solution with admin dashboard for your business.
               </ListItem>
-              <ListItem href="" title="DevLance">
-               An open source developers only freelance platform.
+              <ListItem href="" title="Booking System">
+                A full stack Booking System with admin dashboard for your business.
               </ListItem>
-              <ListItem href="" title="And Many More">
-                Our team of developers keeps on bringing exciting products for future.
+              <ListItem href="" title="Automations + Integrations">
+              Elite integration of payment gateways and automations.
               </ListItem>
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Our Services</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Our Technologies</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {components.map((component) => (
