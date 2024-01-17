@@ -1,8 +1,12 @@
+"use client"
 import React from 'react'
 import { DialogDemo } from './ui/Dailog' 
 import { Link } from 'lucide-react'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Hero = () => {
+  AOS.init();
   return (
    <section className="pt-20 md:py-20 py-10 bg-gradient-to-r from gray-00 to-gray-200 space-y-10">
     <div className="container mx-auto text-center">
