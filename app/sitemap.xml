@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://thexitingway.com</loc>
-<lastmod>2023-06-01T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://thexitingway.com/#campuslink</loc>
-<lastmod>2023-06-01T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://thexitingway.com/#services</loc>
-<lastmod>2023-06-01T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://thexitingway.com/#contact</loc>
-<lastmod>2023-06-01T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://thexitingway.com</loc>
+        <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://thexitingway.com/campuslink</loc>
+        <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thexitingway.com/webservices</loc>
+        <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thexitingway.com/contact</loc>
+        <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>

@@ -8,19 +8,12 @@ import Cta from '@/components/Cta'
 import Footer from '@/components/Footer'
 import CampusLink from '@/components/CampusLink'
 import Video from '@/components/CampusLinkVideo'
-import Cards from '@/components/ToolsCTA'
 
-export default function Home() {
+export default function web() {
   return (
    <>
     <Navbar />
-    <Hero />
-    <Cards />
-    <Products />
-    <CampusLink />
-    <Video />
     <Portfolio />
-    <Features />
     <Cta />
     <Footer />
    </>
